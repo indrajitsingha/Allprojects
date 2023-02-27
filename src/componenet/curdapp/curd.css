@@ -1,0 +1,98 @@
+.CurdHOme{
+    background: rgb(177,43,238);
+background: linear-gradient(3deg, rgba(177,43,238,1) 44%, rgba(108,0,240,1) 99%);
+  }
+  
+  .Table_tr_Curd{
+    width: 100%;
+    background-color: #D8F0DA;
+    border: 1px;
+    min-width: 100%;
+    position: relative;
+    opacity: 0.97;
+    background: transparent;
+  }
+  
+  #Main_Table_Curd>th{
+    padding: 10px 0px 10px 0px;
+    background-color: crimson;
+  }
+  
+  
+  .subnavlogo2{
+    font-size: 35px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: rgb(255, 255, 255);
+  }
+  
+  .main{
+  
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height:77.2vh;
+    }
+    
+    .sub_a{
+       width:50%;
+       height:80%;
+       padding:20px ;
+    }
+    
+    .sub_b{
+    width:40%;
+    height:80%;
+    margin:20px;
+    
+    }
+  
+  /* .curdImg{
+    mix-blend-mode:multiply;
+  } */
+    
+    
+  .cardInput,select, textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+  .CardBtn{
+      background-color: #FFE15D;
+      color: rgb(0, 0, 0);
+      padding: 8px 40px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+   
+    }
+    
+  .CardBtn:hover {
+      background-color: #ff7f6b;
+      color: rgb(255, 255, 255);
+      scale: 1.1;
+  
+    }
+    
+    @media only screen and (max-width: 600px) {
+    
+     .main{
+     flex-direction:column;
+     
+     }
+     .sub_a{
+      width:90%;
+      height:70%;
+      padding:20px ; 
+      padding-top: 30px;
+   }
+        
+        }
